@@ -1,0 +1,147 @@
+<!DOCTYPE html><!--此行功能為告知瀏覽器為HTML檔-->
+<html>
+    <head>
+        <meta charset="UTF-8"><!--此行功能為讓瀏覽器能夠自動編譯中文,而不會將中文顯示成亂碼-->
+        <title>Kai的網頁</title>
+    </head>
+    <body>
+        <!--基本標籤-->
+        <!--只要中間不顯示內容就可以省略結束標籤-->
+        <h1>文章</h1>
+        <h2>文章</h2>
+        <h3>文章</h3>
+        <h4>文章</h4>
+        <h5>文章</h5>
+        <h6>文章</h6>
+        <!--以上為標題,如同Word的不同等級的標題-->
+        <p>今天天氣真好 <i><b>好爽</b></i> 哈哈</p>
+        <!--<p></p>為顯示內容-->
+        <!--<b></b>為顯示粗體字-->
+        <!--<i></i>為顯示斜體字-->
+        <br></br>
+        <br/>
+        <!--<br>000</br>為顯示000後換行-->
+        <!--<br/>為單純顯示換行-->
+        <hr>123</hr>
+        <hr/>
+        <!--<hr>000</hr>為顯示水平線後顯示000-->
+        <!--<hr/>為顯示水行線-->
+
+        <!--連結 & 圖片-->
+        <a href="http://google.com">google網站</a>
+        <br>
+        <a href="page2.html">第二頁</a><!--在同資料夾所以只要指引檔名:page2.html-->
+        <br>
+        <a href="dir/page3.html">第三頁</a><!--在不同資料夾所以要指引路徑:dir/page3.html-->
+        <br>
+        <a href="thumbsup.png">讚</a>
+        <br>
+
+        <img src="https://districtondeck.com/wp-content/uploads/getty-images/2017/07/1316459342.jpeg" width="800">
+        <!--放上URL可以連結外部網路的圖片--><!--可以使用width=""或是height=""限制圖片大小,而二種尺寸擇一限制就可以讓圖片等比例縮放-->
+        <img src="thumbsup.png">
+        <!--也可顯示在專案中的圖片-->
+
+        <!--影片 & 嵌入youtube影片-->
+        <video src="106519077_175067670881388_6158500079421497746_n.mp4" controls></video>
+        <br/>
+        <!--加入影片如果只有給src="",會讓影片在網頁只能顯示圖片,需要加上controls才能讓影片播放-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nDp4msBEeUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br/>
+        <!--加入youtube影片只需要將嵌入的原始碼貼上即可-->
+
+        <!--列表 & 表格 -->
+        <ul>
+            <li>Google</li>
+            <li>Facebook</li>
+            <li>IG</li>
+        </ul>
+        <!--<ul>中的<li>顯示為黑點,<ol>為數字排序,若想使用其餘字元做排序則為<ol type="A">即會做修改,而<li>一定會包覆在<ul>或是<ol>之中-->
+        <ol>
+            <li>Google</li>
+            <li>Facebook</li>
+            <li>IG</li>
+        </ol>
+        <ol type="A">
+            <li>Google</li>
+            <li>Facebook</li>
+            <li>IG</li>
+        </ol>
+
+        <table width="400">
+            <tr>
+                <td>背號</td>
+                <td>名稱</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>Zack Wheeler</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>J.T Realmuto</rd>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bryce Harper</td>
+            </tr>
+        </table>
+        <!--<table>可以建立表格,在結束符號前將要顯示的內容放入<table>中,<tr>代表直向的列,<td>代表橫向的行-->
+
+        <!-- html的容器 div & span-->
+        <div>
+            <ul>
+                <li>Google</li>
+                <li>Facebook</li>
+                <li>IG</li>
+            </ul>
+            <!--<ul>中的<li>顯示為黑點,<ol>為數字排序,若想使用其餘字元做排序則為<ol type="A">即會做修改,而<li>一定會包覆在<ul>或是<ol>之中-->
+            <ol>
+                <li>Google</li>
+                <li>Facebook</li>
+                <li>IG</li>
+            </ol>
+            <ol type="A">
+                <li>Google</li>
+                <li>Facebook</li>
+                <li>IG</li>
+            </ol>
+    
+            <table width="400">
+                <tr>
+                    <td>背號</td>
+                    <td>名稱</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>Zack Wheeler</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>J.T Realmuto</rd>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bryce Harper</td>
+                </tr>
+            </table>   
+        </div>
+        <!-- <div>的功能類似Java的method.將一段code裹起來,讓日後做網頁美化方便用-->
+        <hr/>
+        <span>span1</span>
+        <span>span2</span>
+        <div>div1</div>
+        <div>div2</div>
+        <!--<span>會依據內容決定是否要占用整行,<div>則會像<p>一樣直接佔用整行空間-->
+
+        <!--html輸入標籤-->
+        <input type="text"/>
+        <br/>
+        <br/>
+        <input type="password"/>
+        <!--<inout>讓網頁能夠-->
+
+
+    
+    </body>
+</html>
